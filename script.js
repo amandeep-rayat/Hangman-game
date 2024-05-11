@@ -39,7 +39,7 @@ click.addEventListener(
         }
         chancesleft.innerHTML = "Chances left: " + chances;
         if (guessed) click.innerHTML = "you won refresh";
-        if (chances <= 0) click.innerHTML = "you lose refresh";
+        else if (chances <= 0) click.innerHTML = "you lose refresh";
         if (guessed || chances <= 0) click.removeEventListener("click", eve);
     })
 );
