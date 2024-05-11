@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.head {
+    font-family:  Arial, sans-serif;
+    padding: 5px;
+    background-color: #e9ac5d;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-user{
+    margin: 2.5rem;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    justify-content:center;
+}
+
+.input-user input {
+    height: 2.5rem;
+    font-size: 1.6rem;
+    color:darkslategrey;
+    background-color: #38e6e6;
+    border: 2px solid #04a06c;
+    width: 10rem;
+}
+
+.input-user button {
+    background-color: #fcdfb9;
+    border: 2px solid #e9ac5d;
+    box-sizing: content-box;
+    height: 2.5rem;
+    width: 8rem;
+    cursor: pointer;
+}
+.input-user button:focus {
+    background-color: #ffca85;
+border: 2px solid #fa9614;
+}
+
+.container {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    display: flex;
+    border: 2px solid #ff3b3b;
+    font: 2rem bold;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+}
+
+.container div:hover {
+    background-color: #ff3b3b;
+    color: white;
+}
+
+.chances {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ff3b3b;
+    margin: 1rem;
+    background-color: #38e6e6;
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
