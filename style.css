@@ -1,9 +1,10 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
+
 .head {
-    font-family:  Arial, sans-serif;
+    font-family: Arial, sans-serif;
     padding: 5px;
     background-color: #e9ac5d;
     max-height: 100px;
@@ -13,21 +14,27 @@
     justify-content: center;
 }
 
-.input-user{
+.input-user {
     margin: 2.5rem;
     display: flex;
     column-gap: 15px;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
 .input-user input {
     height: 2.5rem;
     font-size: 1.6rem;
-    color:darkslategrey;
+    color: darkslategrey;
     background-color: #38e6e6;
     border: 2px solid #04a06c;
-    width: 10rem;
+    width: 6.5rem;
+    outline: none;
+}
+
+.input-user input:focus {
+    background-color: #37d6d6;
+    border: 2px solid #048d5f;
 }
 
 .input-user button {
@@ -35,16 +42,17 @@
     border: 2px solid #e9ac5d;
     box-sizing: content-box;
     height: 2.5rem;
-    width: 8rem;
+    width: 6rem;
     cursor: pointer;
 }
-.input-user button:focus {
+
+.input-user button:hover {
     background-color: #ffca85;
-border: 2px solid #fa9614;
+    border: 2px solid #fa9614;
 }
 
 .container {
-    height: 60vh;
+    height: 40vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -66,7 +74,7 @@ border: 2px solid #fa9614;
     color: white;
 }
 
-.chances {
+.written {
     font-size: 1.25rem;
     font-weight: bold;
     color: #ff3b3b;
@@ -77,4 +85,15 @@ border: 2px solid #fa9614;
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
+}
+
+.hint {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ff3b3b;
+    background-color: #38e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
